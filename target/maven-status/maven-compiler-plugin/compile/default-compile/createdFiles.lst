@@ -1,0 +1,3 @@
+com\spring\config\MvcConfiguration.class
+com\spring\controller\RegisterController.class
+com\spring\model\User.class
