@@ -32,9 +32,9 @@ public class RegisterControllerTest extends Mockito{
 	public void testServletp(){
 		RegisterController controller = new RegisterController();
 		User user = new User();
-		user.setUsername("nayan");
+		user.setUsername("Purnima");
 		user.setPassword("hello");
-		user.setEmail("nayan@gmail.com");
+		user.setEmail("pygmail.com");
 		user.setProfession("Devops");
 		Map<String, Object> model = new HashMap<String, Object>();
 		String result = controller.processRegistration(user,model);
