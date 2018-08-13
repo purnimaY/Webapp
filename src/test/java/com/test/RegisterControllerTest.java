@@ -23,7 +23,7 @@ public class RegisterControllerTest extends Mockito{
 		Map<String, Object> model = new HashMap<String, Object>();
 		String result = controller.viewRegistration(model);
 		
-		assertEquals("Registration", result);
+		assertEquals("update", result);
 		
 	}
 
