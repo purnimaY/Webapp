@@ -1,0 +1,14 @@
+node {
+    stage('checkout') {
+         git 'https://github.com/purnimaY/Webapp.git'
+          mvnHome = tool 'Maven'
+    }
+    stage('build-step') {
+    
+      sh "'${mvnHome}/bin/mvn' clean package"
+        
+    }
+    stage('junit-step'){
+        junit '**/target/surefire-reports/*.xml
+    }
+}
