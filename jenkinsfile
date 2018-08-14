@@ -9,6 +9,6 @@ node {
         
     }
     stage('junit-step'){
-        junit '**/target/surefire-reports/*.xml
+        junit '**/target/surefire-reports/*.xml'
     }
 }
