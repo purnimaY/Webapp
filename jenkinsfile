@@ -11,4 +11,5 @@ node {
     stage('junit-step'){
         junit '**/target/surefire-reports/*.xml'
     }
+    build job: 'build'
 }
