@@ -12,7 +12,7 @@
 	<div align="center">
 		<table border="0">
 			<tr>
-				<td colspan="2" align="center"><h2>Registration Succeeded!</h2></td>
+				<td colspan="2" align="center"><h2>Registration Succeeded, be happy!</h2></td>
 			</tr>
 			<tr>
 				<td colspan="2" align="center">
