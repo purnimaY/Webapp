@@ -8,7 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>DemoRegistration</title>
 </head>
-	
+	// I 
 <body>
 	<div bgcolor ='cyan'align="center">
 		<form:form action="register" method="post" commandName="userForm">
